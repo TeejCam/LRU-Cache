@@ -1,7 +1,6 @@
 package org.example;
 import java.util.Map;
 import java.util.HashMap;
-import java.net.URL;
 
 public class LRUCache<K, V>
 {
