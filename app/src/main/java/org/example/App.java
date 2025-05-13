@@ -18,6 +18,8 @@ public class App {
         String url5 = cache.filteredURL("mail.google.com/mail/u/1/#inbox");
         String url6 = cache.filteredURL("harper.blackboard.com");
         String url7 = cache.filteredURL("http://harper.blackboard.com");
+        String url8 = cache.filteredURL("https://harper.blackboard.com/ultra/courses/_175848_1/outline");
+        String url9 = cache.filteredURL("youtube.com");
 
         cache.put(url, url);
         System.out.println("Insertion 1: ");
@@ -45,6 +47,14 @@ public class App {
 
         cache.put(url7, url7);
         System.out.println("Insertion 7: ");
+        System.out.println(cache);
+
+        cache.put(url8, url8);
+        System.out.println("Insertion 8: ");
+        System.out.println(cache);
+
+        cache.put(url9, url9);
+        System.out.println("Insertion 9: ");
         System.out.println(cache);
     }
 }
